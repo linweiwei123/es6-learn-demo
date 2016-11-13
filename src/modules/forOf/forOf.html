@@ -1,0 +1,44 @@
+<div class="block">
+    <table class="table table-bordered table-striped">
+        <thead>
+        <th>index</th>
+        <th>name</th>
+        <th>votes</th>
+        </thead>
+        <tbody>
+        <tr ng-repeat="president in presidentsVotes">
+            <td ng-bind="$index+1"></td>
+            <td ng-bind="president.name" ng-click="showVotes(president.name)"></td>
+            <td ng-bind="president.votes" ></td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
+
+<div class="block">
+    <h3>map</h3>
+    <div>
+        <span ng-bind="votes"></span>
+    </div>
+</div>
+
+<div class="block">
+    <table class="table table-bordered table-striped">
+        <thead>
+        <th>index</th>
+        <th>name</th>
+        <th>votes</th>
+        </thead>
+        <tbody>
+        <tr ng-repeat="persident2 in presidentsVotesTillTrump">
+            <td ng-bind="$index+1"></td>
+            <td ng-bind="persident2.name"></td>
+            <td ng-bind="persident2.votes"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+

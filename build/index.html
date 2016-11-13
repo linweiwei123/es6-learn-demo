@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="es6-app">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- <link rel="shortcut icon" href="../../../assets/global/images/favicon.png" type="image/png">-->
+<link href="build.css" rel="stylesheet"></head>
+<body>
+<div id="page-container">
+    <!--左边菜单-->
+    <nav id="left-side-bar">
+        <div class="menu-scroll">
+            <div class="logo-box">
+                <a href="" class="h4 text-primary">
+                    <h1>ES6 Learn</h1>
+                </a>
+            </div>
+            <div class="menu-content">
+                <ul>
+                    <li>
+                        <a href="#home" class="push-top-10">
+                            <i class="iconfont hotshots-icon-webchat"></i>
+                            <span>home</span>
+                            <i class="iconfont arrow arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#forOf">
+                            <i class="iconfont hotshots-icon-note"></i>
+                            <span>for of</span>
+                            <i class="iconfont arrow arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="iconfont hotshots-icon-webchat"></i>
+                            <span>Highcharts</span>
+                            <i class="iconfont arrow arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="iconfont hotshots-icon-webchat"></i>
+                            <span>用户信息管理</span>
+                            <i class="iconfont arrow arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--顶部菜单-->
+    <header id="header-navbar"></header>
+    <main id="main-container">
+        <div class="view-animate-container">
+            <div ng-view class="view-animate"></div>
+        </div>
+    </main>
+</div>
+
+<script type="text/javascript" src="scripts/vendor.js"></script><script type="text/javascript" src="bundle.js"></script></body>
+</html>

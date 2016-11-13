@@ -1,0 +1,42 @@
+/* 布局相关样式 */
+
+#page-container{
+    margin: 0 auto;
+    width: 100%;
+    min-width: 320px;
+    padding-left: 230px;
+}
+
+#left-side-bar{
+    position: fixed;
+    top: 0px;
+    left:0px;
+    bottom:0px;
+    width: 230px;
+    background-color: #2C343E;
+    z-index: 1000;
+}
+
+#header-navbar{
+    position: fixed;
+    z-index: 1000;
+    top:0px;
+    left: 230px;
+    background-color: #ffffff;
+    min-height: 60px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+}
+
+#main-container{
+    padding-top: 85px;
+    overflow-y: scroll;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+/* 不同尺寸下 */
+@media screen and (max-width: 764px){
+
+}

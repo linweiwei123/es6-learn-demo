@@ -1,0 +1,41 @@
+.menu-scroll{
+    overflow-y: scroll;
+}
+.logo-box{
+    min-height: 60px;
+    background-color: rgba(255,255,255,0.175);
+    padding: 10px;
+}
+.logo-box img{
+    max-height: 40px;
+    display: block;
+}
+.menu-content ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.menu-content ul li a{
+    height: 40px;
+    display: block;
+    padding: 10px 30px 10px 20px;
+    position: relative;
+}
+.menu-content ul li i{
+    margin-right: 15px;
+}
+.menu-content a{
+    color: rgba(255,255,255,0.5);
+}
+.menu-content a:hover{
+    color:#ffffff;
+    background-color: #3169b1;
+}
+.menu-content a .arrow-right{
+    position: absolute;
+    right: 0px;
+}
+
+.block{
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
